@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="t d">
+  <title id="t">ESC self-correction schematic</title>
+  <desc id="d">A target VLM produces an initial answer, a verifier checks it, and a correction signal loops back to a revised answer.</desc>
+  <rect width="600" height="420" fill="#fbfaf7"/>
+  <g stroke="#cfd1ca" stroke-width="2" fill="none">
+    <path d="M92 208 H204"/>
+    <path d="M318 208 H424"/>
+    <path d="M486 252 C486 330 210 340 210 265"/>
+  </g>
+  <g fill="#171a19" font-family="Arial, sans-serif">
+    <rect x="40" y="165" width="122" height="86" rx="4" fill="#ebe6dc" stroke="#cfd1ca"/>
+    <text x="101" y="198" text-anchor="middle" font-size="13" font-weight="700">IMAGE + PROMPT</text>
+    <text x="101" y="220" text-anchor="middle" font-size="11" fill="#626762">multimodal input</text>
+
+    <rect x="204" y="150" width="114" height="116" rx="4" fill="#d8e4e1" stroke="#8aa9a6"/>
+    <text x="261" y="192" text-anchor="middle" font-size="13" font-weight="700">TARGET VLM</text>
+    <text x="261" y="216" text-anchor="middle" font-size="11" fill="#4d6563">initial judgment</text>
+    <circle cx="261" cy="239" r="5" fill="#245c61"/>
+
+    <rect x="424" y="150" width="128" height="116" rx="4" fill="#171a19"/>
+    <text x="488" y="192" text-anchor="middle" font-size="13" font-weight="700" fill="#f4f1ea">VERIFIER</text>
+    <text x="488" y="216" text-anchor="middle" font-size="11" fill="#b8c6c3">reliability check</text>
+    <circle cx="488" cy="239" r="5" fill="#9ec0bd"/>
+
+    <rect x="206" y="317" width="110" height="56" rx="28" fill="#245c61"/>
+    <text x="261" y="341" text-anchor="middle" font-size="11" font-weight="700" fill="#fff">CORRECTION</text>
+    <text x="261" y="357" text-anchor="middle" font-size="10" fill="#d8e4e1">reconsider</text>
+  </g>
+  <g fill="#245c61" font-family="Georgia, serif" font-size="15" font-style="italic">
+    <text x="365" y="192" text-anchor="middle">answer</text>
+    <text x="398" y="332" text-anchor="middle">feedback loop</text>
+  </g>
+</svg>
