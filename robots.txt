@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://minhnhat2001vt.github.io/sitemap.xml

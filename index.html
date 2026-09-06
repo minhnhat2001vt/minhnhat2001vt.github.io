@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Minh-Nhat Nguyen — Trustworthy Multimodal AI</title>
+  <meta name="description" content="Minh-Nhat Nguyen is an MSc Data Science student at the University of Trier working on trustworthy multimodal AI, vision-language model reliability, self-correction, and multimodal retrieval." />
+  <meta name="author" content="Minh-Nhat Nguyen" />
+  <meta name="theme-color" content="#f4f1ea" />
+  <meta property="og:title" content="Minh-Nhat Nguyen — Trustworthy Multimodal AI" />
+  <meta property="og:description" content="Research on reliable vision-language systems, evidence-aware reasoning, retrieval, and self-correction." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://minhnhat2001vt.github.io/" />
+  <link rel="canonical" href="https://minhnhat2001vt.github.io/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Minh-Nhat Nguyen",
+    "url": "https://minhnhat2001vt.github.io/",
+    "email": "mailto:nnguyennhat201@gmail.com",
+    "affiliation": {"@type": "CollegeOrUniversity", "name": "University of Trier"},
+    "sameAs": [
+      "https://github.com/minhnhat2001vt",
+      "https://www.linkedin.com/in/nhatnguyen201",
+      "https://scholar.google.com/citations?user=XPsyb8sAAAAJ"
+    ],
+    "knowsAbout": [
+      "Trustworthy Multimodal AI",
+      "Vision-Language Models",
+      "Multimodal Retrieval",
+      "Reliable Reasoning",
+      "Self-Correction"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#top" aria-label="Minh-Nhat Nguyen home">MN<span>.</span></a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" id="top">
+      <div class="hero-copy">
+        <div class="hero-name-wrap">
+          <p class="kicker">Trustworthy multimodal AI</p>
+          <h1>Minh-Nhat<br />Nguyen</h1>
+        </div>
+        <div class="hero-intro">
+          <p class="role">MSc Data Science · University of Trier</p>
+          <p class="lede">I study how multimodal systems <strong>represent knowledge</strong>, <strong>retrieve and use evidence</strong>, and <strong>correct unreliable reasoning</strong>.</p>
+          <div class="link-row" aria-label="Professional links">
+            <a href="mailto:nnguyennhat201@gmail.com">Email</a>
+            <a href="https://scholar.google.com/citations?user=XPsyb8sAAAAJ" target="_blank" rel="noreferrer">Scholar ↗</a>
+            <a href="https://github.com/minhnhat2001vt" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/nhatnguyen201" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="cv.html">CV</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-portrait-wrap">
+        <figure class="hero-portrait">
+          <img src="assets/portrait.jpg" alt="Portrait of Minh-Nhat Nguyen" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="news shell" aria-labelledby="news-title">
+      <div class="section-label" id="news-title">News</div>
+      <div class="news-list">
+        <div class="news-item"><time datetime="2026-09">Sep 2026</time><p>Presenting <em>ESC</em> at <strong>ECCV 2026</strong> in Malmö.</p></div>
+        <div class="news-item"><time datetime="2026-09-08">Sep 2026</time><p>Oral presentation at the <strong>VisPer Workshop</strong>.</p></div>
+        <div class="news-item"><time datetime="2026-09-09">Sep 2026</time><p>Poster presentation at the <strong>MARS2 Workshop</strong>.</p></div>
+        <div class="news-item"><time datetime="2026-07">Jul 2026</time><p><em>ESC: Emotional Self-Correction for Reliable Vision-Language Models</em> accepted to ECCV 2026.</p></div>
+      </div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-label">About</div>
+      <div class="section-content prose-grid">
+        <h2>From correct answers to<br />trustworthy behavior.</h2>
+        <div class="prose">
+          <p>Vision-language models can be confidently wrong. My current work focuses on reliability at inference time: diagnosing hallucination and reasoning failures, designing correction mechanisms, and asking whether a model's answer is actually supported by the evidence available to it.</p>
+          <p>Longer term, I am interested in reliable multimodal knowledge systems—systems in which representation, retrieval, evidence use, reasoning, and verification are studied as parts of the same reliability problem.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="shell">
+        <div class="section-label">Research</div>
+        <div class="research-heading">
+          <h2>A working mental model for reliable multimodal systems.</h2>
+          <p>Rather than treating reliability as a single accuracy score, I think about where trust can fail along a sequence of decisions.</p>
+        </div>
+
+        <div class="research-flow" role="list" aria-label="Research trajectory">
+          <div class="flow-step" role="listitem"><span>01</span><strong>Knowledge</strong><p>What is represented inside the model?</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step" role="listitem"><span>02</span><strong>Evidence</strong><p>What information is retrieved or observed?</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step" role="listitem"><span>03</span><strong>Utilization</strong><p>Does the evidence actually affect the decision?</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step" role="listitem"><span>04</span><strong>Reasoning</strong><p>Is the inference grounded and calibrated?</p></div>
+          <div class="flow-arrow" aria-hidden="true">→</div>
+          <div class="flow-step" role="listitem"><span>05</span><strong>Correction</strong><p>Can failure be detected and repaired?</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="publications">
+      <div class="section-label">Selected publications</div>
+      <div class="pub-stack">
+        <article class="pub-row featured-pub">
+          <div class="pub-visual">
+            <img src="assets/esc-visual.svg" alt="Schematic illustration of an initial VLM answer being checked by a verifier and reconsidered through a correction loop." />
+          </div>
+          <div class="pub-copy">
+            <div class="pub-topline"><span class="venue">ECCV 2026</span><span class="role-note">Co-first author · equal contribution</span></div>
+            <h3>ESC: Emotional Self-Correction for Reliable Vision-Language Models</h3>
+            <p class="authors">Tien-Huy Nguyen, <strong>Minh-Nhat Nguyen</strong>, Nhat-Huy Nguyen, et al.</p>
+            <p class="summary">A verifier-guided inference-time framework that uses emotional feedback as a control signal to prompt vision-language models to reconsider unreliable first judgments.</p>
+            <div class="pub-links">
+              <a href="https://doi.org/10.48550/arXiv.2607.02089" target="_blank" rel="noreferrer">Paper ↗</a>
+              <a href="https://genai4e.github.io/ESC/" target="_blank" rel="noreferrer">Project ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="pub-row">
+          <div class="pub-visual">
+            <img src="assets/retrieval-visual.svg" alt="Schematic illustration of candidate video moments being globally reranked and temporally refined." />
+          </div>
+          <div class="pub-copy">
+            <div class="pub-topline"><span class="venue muted-venue">CVPRW 2025</span><span class="role-note">Moment retrieval</span></div>
+            <h3>A Lightweight Moment Retrieval System with Global Re-Ranking and Robust Adaptive Bidirectional Temporal Search</h3>
+            <p class="authors">Tien-Anh Nguyen-Nhu, Hai-Linh Tran, Ngoc-Khanh Le, <strong>Minh-Nhat Nguyen</strong>, et al.</p>
+            <p class="summary">A lightweight retrieval pipeline combining global re-ranking with adaptive bidirectional temporal search for robust moment localization.</p>
+            <div class="pub-links">
+              <a href="https://doi.org/10.48550/arXiv.2504.09298" target="_blank" rel="noreferrer">Paper ↗</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section compact-section shell" id="experience">
+      <div class="section-label">Experience</div>
+      <div class="timeline-list">
+        <article class="timeline-row">
+          <div class="timeline-date">2025 — Present</div>
+          <div class="timeline-main">
+            <h3>GenAI4E Lab</h3>
+            <p class="timeline-role">Research Contributor · ESC</p>
+            <p>Designed the theoretical framework for emotional self-correction; built multi-model evaluation infrastructure; ran experiments across safety, hallucination, reasoning, and vision-centric benchmarks; and contributed controlled rebuttal ablations.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section compact-section shell" id="education">
+      <div class="section-label">Education</div>
+      <div class="timeline-list">
+        <article class="timeline-row">
+          <div class="timeline-date">2025 — Present</div>
+          <div class="timeline-main"><h3>University of Trier</h3><p class="timeline-role">MSc Data Science · Trier, Germany</p></div>
+        </article>
+        <article class="timeline-row">
+          <div class="timeline-date">2020 — 2024</div>
+          <div class="timeline-main"><h3>University of Economics Ho Chi Minh City</h3><p class="timeline-role">BSc Data Science, Honors · GPA 3.5 / 4.0</p></div>
+        </article>
+        <article class="timeline-row">
+          <div class="timeline-date">2023</div>
+          <div class="timeline-main"><h3>AI Vietnam</h3><p class="timeline-role">AIO 2023 Program</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact shell" id="contact">
+      <div>
+        <div class="section-label">Contact</div>
+        <h2>Research conversations are welcome.</h2>
+      </div>
+      <div class="contact-copy">
+        <p>If you work on multimodal learning, VLM reliability, retrieval, knowledge representation, or reliable reasoning, feel free to get in touch.</p>
+        <a class="email-link" href="mailto:nnguyennhat201@gmail.com">nnguyennhat201@gmail.com <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <p>© <span id="year">2026</span> Minh-Nhat Nguyen</p>
+      <div><a href="https://github.com/minhnhat2001vt" target="_blank" rel="noreferrer">GitHub</a><a href="https://scholar.google.com/citations?user=XPsyb8sAAAAJ" target="_blank" rel="noreferrer">Scholar</a><a href="https://www.linkedin.com/in/nhatnguyen201" target="_blank" rel="noreferrer">LinkedIn</a></div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
